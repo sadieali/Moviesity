@@ -1,18 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Moviesity</title>
-  <style>
-    body {
-      background-size: cover;
-      background-position: center;
-      text-align: center;
-    }
-  </style>
-</head>
+  <link rel="stylesheet" href="css/home.css">
+    <title>Moviesity /Home/ </title>
+    <style>
+      ul.nav li {
+          text-align: center;
+          display: inline-block;
+          padding-right: 70px;
+      }
 
-<body>
-  <header>
-    <h1>Moviesity</h1>
-  </header>
-</body>
+      form {
+        text-align: right;
+      }
+</style>
+
+<div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+
+    <ul class='nav'>
+        <li><a href="#explanation"><mark>Home</mark></a></li>
+        <li><a href="#films"><mark>Films</mark></a></li>
+        <li><a href="#recently-added"><mark>Recently Added</mark></a></li>
+        <li><a href="#contact"><mark>Contact</mark></a></li>
+    </ul>
