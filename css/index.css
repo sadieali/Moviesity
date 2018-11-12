@@ -1,5 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
-<i class="fas fa-search"></i>
+
 body{
   background: #f2f2f2;
   font-family: 'Open Sans', sans-serif;
@@ -45,5 +45,36 @@ body{
   position: absolute;
   top: 10%;
   left: 80%;
-  transform: translate(-50%, -50%);
+  transform: translate(-20%, -80%);
 }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#events.color-info {
+  color: blue;
+  background-color: #6495ED;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  width: 400px;
+}
+
+#about_us.color-info {
+  color: orange;
+  background-color: #FFEBCD;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  width: 400px;
+  }
