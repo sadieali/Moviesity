@@ -1,3 +1,8 @@
+div {
+    margin: 7px;
+    border: 1px solid #4CAF50;
+}
+
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
