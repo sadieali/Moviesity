@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body{
+  background: #f2f2f2;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.search {
+  width: 100%;
+  position: relative
+}
+
+.searchTerm {
+  float: left;
+  width: 100%;
+  border: 3px solid #00B4CC;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  position: absolute;
+  right: -50px;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #black;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 15%;
+  position: absolute;
+  top: 10%;
+  left: 80%;
+  transform: translate(-20%, -80%);
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#events.color-info {
+  color: blue;
+  background-color: #6495ED;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  width: 400px;
+}
+
+#about_us.color-info {
+  color: orange;
+  background-color: #FFEBCD;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  width: 400px;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }

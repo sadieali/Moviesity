@@ -16,18 +16,23 @@ td, th {
     padding: 8px;
 }
 
-h1{
+#title_1{
   color: rgba(0, 0, 0, 1);
   background: rgb(204, 204, 255);
   background: linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
   background: -webkit-linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
   background: -moz-linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
-  padding: 30px;
+  padding: 2px;
   line-height: 15px;
   text-align: center;
   position: center;
   bottom: 0;
-  margin: 0;
+  margin-length: 2%;
+
+}
+
+h1{
+
 }
 
 p {
