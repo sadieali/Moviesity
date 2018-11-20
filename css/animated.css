@@ -1,6 +1,8 @@
 div {
-    margin: 7px;
-    border: 1px solid #4CAF50;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-left: 20px;
 }
 
 table {
@@ -13,7 +15,6 @@ td, th {
     text-align: left;
     padding: 8px;
 }
-
 
 h1{
   color: rgba(0, 0, 0, 1);
