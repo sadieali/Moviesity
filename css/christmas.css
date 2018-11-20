@@ -15,26 +15,25 @@ td, th {
 }
 
 h1{
-  color: rgba(255,255,255,1);
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
-  padding: 5px;
-  line-height: 28px;
-  text-align: justify;
+  color: rgba(0, 0, 0, 1);
+  background: rgb(204, 204, 255);
+  background: linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
+  background: -webkit-linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
+  background: -moz-linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
+  padding: 10px;
+  line-height: 15px;
+  text-align: center;
   position: center;
   bottom: 0;
   margin: 0;
 }
 
 p {
-  color: rgba(255,255,255,1);
-  font-weight: bold;
-  background: black;
-  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
+  color: rgb(0, 0, 0, 1);
+  background: rgb(204, 204, 255);
+  background: linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
+  background: -webkit-linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
+  background: -moz-linear-gradient(bottom, rgba(204, 204, 255, .6), rgba(204, 204, 255, .6));
   padding: 5px;
   line-height: 28px;
   text-align: justify;
