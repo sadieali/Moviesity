@@ -14,16 +14,31 @@ td, th {
     padding: 8px;
 }
 
-p {
+h1{
   color: rgba(255,255,255,1);
   background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
   background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
   background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
-  padding: 10px;
+  padding: 5px;
   line-height: 28px;
   text-align: justify;
-  position: absolute;
+  position: center;
+  bottom: 0;
+  margin: 0;
+}
+
+p {
+  color: rgba(255,255,255,1);
+  font-weight: bold;
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0, 0, 0, .4));
+  padding: 5px;
+  line-height: 28px;
+  text-align: justify;
+  position: left;
   bottom: 0;
   margin: 0;
 }
