@@ -1,3 +1,18 @@
+ul.nav li {
+    text-align: center;
+    display: inline-block;
+    padding-right: 10px;
+    top: 10%;
+    left: 80%;
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 div {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -6,7 +21,7 @@ div {
 }
 
 table {
-    font-family: arial, sans-serif;
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
@@ -28,6 +43,7 @@ h1{
   position: center;
   bottom: 0;
   margin: 0;
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }
 
 p {
@@ -42,5 +58,5 @@ p {
   position: left;
   bottom: 0;
   margin: 0;
-  font-family: garamond;
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }

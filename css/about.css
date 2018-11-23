@@ -1,0 +1,18 @@
+ul.nav li {
+    text-align: center;
+    display: inline-block;
+    padding-right: 10px;
+    top: 10%;
+    left: 80%;
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+body {
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
