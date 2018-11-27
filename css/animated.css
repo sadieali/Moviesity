@@ -14,10 +14,9 @@ ul {
 }
 
 #search {
-  width: 80%;
+  width: 95%;
   position: absolute;
-  right: -400px;
-  text-align: center;
+  text-align: right;
   color: #black;
   cursor: pointer;
   font-size: 20px;
