@@ -1,24 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+
 html {
   background:  url(http://homdor.com/public/anonymous/queasyfancyarctichare?g=aHR0cHM6Ly90aHVtYnMuZ2Z5Y2F0LmNvbS9RdWVhc3lGYW5jeUFyY3RpY2hhcmUtc2l6ZV9yZXN0cmljdGVkLmdpZg==) no-repeat center center fixed;
   background-size: cover;
 }
-h1{
+
+h1 {
   font-family: 'Advent Pro', sans-serif;
   font-size: 80px;
   margin: .2em .5em;
   color: rgba(255,255,255, 0.7);
 }
-p{
+
+p {
   font-family: 'Advent Pro', sans-serif;
   font-size: 60px;
   margin: .2em .5em;
   color: rgba(255,255,255, .7);
-
 }
+
 body {
     height: 100%;
 }
+
 body {
   background-position: center;
   text-align: center;

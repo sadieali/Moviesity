@@ -89,6 +89,20 @@ body{
   width: 20%;
 }
 
+#middle.color-info {
+    color: rgba(255, 255, 255, 1);
+    background: black;
+    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    padding: 30px;
+    line-height: 15px;
+    text-align: center;
+    position: center;
+    bottom: 0;
+    margin: 0;
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
 
 #events.color-info {
   color: blue;
