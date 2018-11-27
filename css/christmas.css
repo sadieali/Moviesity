@@ -7,6 +7,12 @@ ul.nav li {
     font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }
 
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 #search {
   width: 80%;
   position: absolute;
@@ -15,12 +21,6 @@ ul.nav li {
   color: #black;
   cursor: pointer;
   font-size: 20px;
-}
-
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 div {
