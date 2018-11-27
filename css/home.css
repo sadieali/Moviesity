@@ -7,18 +7,18 @@ p{
 }
 
 h1 {
-  color: black;
+  color: #ffaa00;
   font-size: 20px;
   text-align: center;
 }
-h2{
+
+h2 {
   font-size: 15px;
   text-align: center;
 }
-h3{
-  text-align: center;
-  font-size: 17px;
-}
+
+
+
 ul.nav li {
     text-align: center;
     display: inline-block;
@@ -90,44 +90,42 @@ body{
 }
 
 #middle.color-info {
-    color: rgba(255, 255, 255, 1);
-    background: #ff1a1a;
-    background: linear-gradient(bottom, rgba(255, 26, 26, .1), rgb(255, 26, 26, .4));
-    background: -webkit-linear-gradient(bottom, rgba(255, 26, 26, .1), rgb(255, 26, 26, .4));
-    background: -moz-linear-gradient(bottom, rgba(255, 26, 26, .1), rgb(255, 26, 26, .4));
-    padding: 30px;
-    line-height: 15px;
+    color: rgba(0, 0, 0, 1);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .9));
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
+    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
+    padding: 5px;
+    line-height: 25px;
     text-align: center;
     position: center;
-    bottom: 0;
-    margin: 0;
     font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }
 
 #events.color-info {
-  color: blue;
-  background-color: #6495ED;
+  color: orange;
+  background-color: #ffd480;
   border-style: solid;
-  border-color: black;
+  border-color: #ffcc66;
   border-width: 1px;
   font-size: 14px;
   position: absolute;
-    top: 300px;
+    top: 250px;
     right: 0;
     width: 400px;
-    height: 209px;
+    height: 218px;
 }
 
 #IMDb.color-info {
   color: orange;
-  background-color: #FFEBCD;
+  background-color: #ffd480;
   border-style: solid;
-  border-color: black;
+  border-color: #ffcc66;
   border-width: 1px;
   font-size: 14px;
   position: absolute;
-    top: 300px;
+    top: 250px;
     left: 0;
     width: 400px;
-    height: 209px;
+    height: 218px;
   }
