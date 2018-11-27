@@ -7,6 +7,16 @@ ul.nav li {
     font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }
 
+#search {
+  width: 80%;
+  position: absolute;
+  right: -400px;
+  text-align: center;
+  color: #black;
+  cursor: pointer;
+  font-size: 20px;
+}
+
 ul {
     position: fixed;
     top: 0;
