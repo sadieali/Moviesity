@@ -91,10 +91,10 @@ body{
 
 #middle.color-info {
     color: rgba(255, 255, 255, 1);
-    background: black;
-    background: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-    background: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
-    background: -moz-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, .4));
+    background: #ff1a1a;
+    background: linear-gradient(bottom, rgba(255, 26, 26, .1), rgb(255, 26, 26, .4));
+    background: -webkit-linear-gradient(bottom, rgba(255, 26, 26, .1), rgb(255, 26, 26, .4));
+    background: -moz-linear-gradient(bottom, rgba(255, 26, 26, .1), rgb(255, 26, 26, .4));
     padding: 30px;
     line-height: 15px;
     text-align: center;
