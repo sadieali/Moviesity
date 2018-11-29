@@ -1,16 +1,16 @@
-ul.nav li {
+.button {
+    background-color: #80aaff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
     text-align: center;
+    text-decoration: none;
     display: inline-block;
-    padding-right: 10px;
-    top: 10%;
-    left: 80%;
+    font-size: 12px;
+    font-weight: bold;
     font-family:"Open Sans", Helvetica, Arial, sans-serif;
-}
-
-ul {
-    position: fixed;
-    top: 0;
-    width: 100%;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 
 #search {
@@ -20,6 +20,7 @@ ul {
   color: #black;
   cursor: pointer;
   font-size: 20px;
+  top: 5px;
 }
 
 * {
