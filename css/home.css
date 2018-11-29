@@ -10,7 +10,7 @@ p {
 }
 
 h1 {
-  color: #ffaa00;
+  color: #ff8c1a;
   font-size: 20px;
   text-align: center;
 }
@@ -65,10 +65,10 @@ ul {
 }
 
 #events.color-info {
-  color: orange;
+  color: #ff8c1a;
   background-color: #ffd480;
   border-style: solid;
-  border-color: #ffcc66;
+  border-color: black;
   border-width: 1px;
   font-size: 14px;
   position: absolute;
@@ -79,10 +79,10 @@ ul {
 }
 
 #IMDb.color-info {
-  color: orange;
+  color: #ff8c1a;
   background-color: #ffd480;
   border-style: solid;
-  border-color: #ffcc66;
+  border-color: black;
   border-width: 1px;
   font-size: 14px;
   position: absolute;
