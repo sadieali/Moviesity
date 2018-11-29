@@ -1,16 +1,12 @@
-.button {
-    background-color: #80aaff;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
+mark {
+  color: white;
+  background-color: #80aaff;
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+
+ul.nav li {
     display: inline-block;
-    font-size: 12px;
-    font-weight: bold;
-    font-family:"Open Sans", Helvetica, Arial, sans-serif;
-    margin: 4px 2px;
-    cursor: pointer;
+    padding-right: 10px;
 }
 
 #search {

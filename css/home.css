@@ -1,23 +1,18 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 body{
-
   font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.button {
-    background-color: rgba(128, 170, 255, 1);
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    font-weight: bold;
-    font-family:"Open Sans", Helvetica, Arial, sans-serif;
-    cursor: pointer;
+mark {
+  color: white;
+  background-color: #80aaff;
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
 
+ul.nav li {
+    display: inline-block;
+    padding-right: 10px;
 }
 
 p {

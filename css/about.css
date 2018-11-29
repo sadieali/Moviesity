@@ -1,20 +1,17 @@
 body {
+  background-repeat: no-repeat;
+  background-size: 1280px 600px;
+}
+
+mark {
+  color: white;
+  background-color: #80aaff;
   font-family:"Open Sans", Helvetica, Arial, sans-serif;
 }
 
-.button {
-    background-color: #80aaff;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
+ul.nav li {
     display: inline-block;
-    font-size: 12px;
-    font-weight: bold;
-    font-family:"Open Sans", Helvetica, Arial, sans-serif;
-    margin: 4px 2px;
-    cursor: pointer;
+    padding-right: 10px;
 }
 
 
@@ -26,4 +23,16 @@ body {
   cursor: pointer;
   font-size: 20px;
   top: 5px;
+}
+
+.about {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: courier;
+  position: absolute;
+    top: 110px;
+    right: 30px;
+    width: 400px;
+    height: 400px;
 }
