@@ -1,0 +1,38 @@
+body {
+  background-repeat: no-repeat;
+  background-size: 1280px 600px;
+}
+
+mark {
+  color: white;
+  background-color: #80aaff;
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+
+ul.nav li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+
+#search {
+  width: 95%;
+  position: absolute;
+  text-align: right;
+  color: #black;
+  cursor: pointer;
+  font-size: 20px;
+  top: 5px;
+}
+
+.about {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-family: courier;
+  position: absolute;
+    top: 110px;
+    right: 30px;
+    width: 400px;
+    height: 400px;
+}

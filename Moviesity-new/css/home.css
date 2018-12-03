@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body{
+  font-family:"Open Sans", Helvetica, Arial, sans-serif;
+}
+
+.menu{
+  width:100%
+  overflow:auto;
+}
+.menu ul{
+  margin:0;
+  padding:0;
+  list-style:none;
+  line-height:30px;
+}
+.menu li{
+  float:left;
+}
+.menu ul li a{
+  background: orange;
+  display: block;
+  text-decoration: none;
+  width: 90px;
+  text-align:center;
+  font-size: 18px;
+  font-family:sans-serif;
+  letter-spacing: 0.5px;
+}
+.menu li a:hover {
+  color:#fff;
+  opacity: .5px;
+  font-size: 19px;
+
+}
+.search-form{
+  margin-top:15px;
+  float:right;
+  margin-right:100px;
+}
+input[type=text] {
+  padding:7px;
+  border: none;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+button{
+  float:right;
+  background: orange;
+  color:white;
+  border-radius:0 5px 5px 0;
+  cursor: pointer;
+  position:relative;
+  padding:7px;
+  font-family: sans-serif;
+  border:none;
+  font-size: 16px;
+
+}
+p {
+  text-align: center;
+}
+
+h1 {
+  color: #0E0B75;
+  font-size: 20px;
+  text-align: center;
+  font-family: courier-header;
+}
+
+h2 {
+  font-size: 15px;
+  text-align: center;
+}
+
+
+
+#middle.color-info {
+    color: rgba(0, 0, 0, 1);
+    background: rgb(255, 255, 255);
+    background: linear-gradient(bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .9));
+    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
+    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
+    line-height: 20px;
+    font-family:"Open Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    position: center;
+    height:218px;
+    top: 310px;
+}
+
+#events.color-info {
+  color: #6699ff;
+  background-color: #ffcc66;
+  border-style: solid;
+  border-color: #ffcc66;
+  border-width: 1px;
+  font-size: 14px;
+  position: absolute;
+    top: 294px;
+    right: 0;
+    width: 400px;
+    height: 218px;
+}
+
+#IMDb.color-info {
+  color: #6699ff;
+  background-color: #ffcc66;
+  border-style: solid;
+  border-color: #ffcc66;
+  border-width: 1px;
+  font-size: 14px;
+  position: absolute;
+    top: 294px;
+    left: 0;
+    width: 400px;
+    height: 218px;
+  }
