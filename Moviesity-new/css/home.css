@@ -2,6 +2,8 @@
 
 body{
   font-family:"Open Sans", Helvetica, Arial, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .menu{
@@ -63,13 +65,13 @@ p {
 
 h1 {
   color: #0E0B75;
-  font-size: 20px;
+  font-size: 30px;
   text-align: center;
   font-family: courier-header;
 }
 
 h2 {
-  font-size: 15px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -77,10 +79,6 @@ h2 {
 
 #middle.color-info {
     color: rgba(0, 0, 0, 1);
-    background: rgb(255, 255, 255);
-    background: linear-gradient(bottom, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, .9));
-    background: -webkit-linear-gradient(bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
-    background: -moz-linear-gradient(bottom, rgba(255, 255, 255, .9), rgba(255, 255, 255, .9));
     line-height: 20px;
     font-family:"Open Sans", Helvetica, Arial, sans-serif;
     text-align: center;
@@ -91,28 +89,21 @@ h2 {
 
 #events.color-info {
   color: #6699ff;
-  background-color: #ffcc66;
-  border-style: solid;
-  border-color: #ffcc66;
-  border-width: 1px;
-  font-size: 14px;
+  font-size: 18px;
   position: absolute;
-    top: 294px;
+    top: 190px;
     right: 0;
-    width: 400px;
-    height: 218px;
+    width: 200px;
+    height: 400px;
 }
 
 #IMDb.color-info {
   color: #6699ff;
-  background-color: #ffcc66;
-  border-style: solid;
-  border-color: #ffcc66;
   border-width: 1px;
-  font-size: 14px;
+  font-size: 18px;
   position: absolute;
-    top: 294px;
+    top: 190px;
     left: 0;
-    width: 400px;
-    height: 218px;
+    width: 200px;
+    height: 400px;
   }
