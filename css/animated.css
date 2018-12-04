@@ -8,7 +8,9 @@ ul.nav li {
     display: inline-block;
     padding-right: 10px;
 }
-
+#like{
+  float:right;
+}
 #search {
   width: 95%;
   position: absolute;
