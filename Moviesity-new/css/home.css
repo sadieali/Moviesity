@@ -57,21 +57,25 @@ button{
   font-family: sans-serif;
   border:none;
   font-size: 16px;
-
 }
 p {
   text-align: center;
+  font-size: 20px;
+}
+p a{
+  color: white;
+
 }
 
 h1 {
   color: #0E0B75;
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   font-family: courier-header;
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 25px;
   text-align: center;
 }
 
@@ -85,13 +89,42 @@ h2 {
     position: center;
     height:218px;
     top: 310px;
+ /* Starting position */
+ -moz-transform:translateY(8%);
+ -webkit-transform:translateY(8%);
+ transform:translateY(8%);
+ /* Apply animation to this element */
+ -moz-animation: scroll-up 5s linear infinite;
+ -webkit-animation: scroll-up 5s linear infinite ;
+ animation: scroll-up 5s linear infinite;
+}
+/* Move it (define the animation) */
+@-moz-keyframes scroll-up {
+ 40%   { -moz-transform: translateY(40%); }
+ 40% { -moz-transform: translateY(-40%); }
+}
+@-webkit-keyframes scroll-up {
+ 20%   { -webkit-transform: translateY(20%); }
+ 20% { -webkit-transform: translateY(-20%); }
+}
+@keyframes scroll-up {
+ 20%   {
+ -moz-transform: translateY(20%); /* Browser bug fix */
+ -webkit-transform: translateY(20%); /* Browser bug fix */
+ transform: translateY(20%);
+ }
+ 20% {
+ -moz-transform: translateY(-20%); /* Browser bug fix */
+ -webkit-transform: translateY(-20%); /* Browser bug fix */
+ transform: translateY(-20%);
+ }
 }
 
 #events.color-info {
   color: #6699ff;
   font-size: 18px;
   position: absolute;
-    top: 190px;
+    top: 110px;
     right: 0;
     width: 200px;
     height: 400px;
@@ -102,7 +135,7 @@ h2 {
   border-width: 1px;
   font-size: 18px;
   position: absolute;
-    top: 190px;
+    top: 110px;
     left: 0;
     width: 200px;
     height: 400px;
