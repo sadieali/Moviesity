@@ -20,15 +20,17 @@ body{
   float:left;
 }
 .menu ul li a{
-  background: orange;
-  display: block;
+  background: rgba(230, 0, 0, .8);
+  display: inline;
+  padding: 7px;
+  color: white;
   text-decoration: none;
-  width: 90px;
   text-align:center;
   font-size: 18px;
   font-family:sans-serif;
   letter-spacing: 0.5px;
 }
+
 .menu li a:hover {
   color:#fff;
   opacity: .5px;
@@ -48,7 +50,7 @@ input[type=text] {
 }
 button{
   float:right;
-  background: orange;
+  background: #e60000;
   color:white;
   border-radius:0 5px 5px 0;
   cursor: pointer;
@@ -58,6 +60,7 @@ button{
   border:none;
   font-size: 16px;
 }
+
 h3{
   text-align: center;
   font-size: 20px;
@@ -81,9 +84,9 @@ h1{
   -webkit-transform:translateY(8%);
   transform:translateY(8%);
   /* Apply animation to this element */
-  -moz-animation: scroll-up 10s linear infinite;
-  -webkit-animation: scroll-up 10s linear infinite ;
-  animation: scroll-up 10s linear infinite;
+  -moz-animation: scroll-up 7s linear infinite;
+  -webkit-animation: scroll-up 7s linear infinite ;
+  animation: scroll-up 7s linear infinite;
  }
  /* Move it (define the animation) */
  @-moz-keyframes scroll-up {
