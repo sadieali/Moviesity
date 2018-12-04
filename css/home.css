@@ -38,9 +38,9 @@ body{
 
 }
 .search-form{
-  margin-top:15px;
+  margin-top:0px;
   float:right;
-  margin-right:100px;
+  margin-right:0px;
 }
 input[type=text] {
   padding:7px;
